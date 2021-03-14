@@ -3,7 +3,7 @@
 }
 
 body {
-    background: hsl(218, 22%, 67%);
+    background: #F2F2F2;
     padding: 10px;
     margin: 10px;
     width: 375px;
@@ -20,7 +20,7 @@ body {
 }
 
 .top_main {
-    background: hsl(204, 43%, 93%);
+    background: #FFFFFF;
     border-radius: 10px 10px 0 0;
     padding: 18px;
     text-align: left;
