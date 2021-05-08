@@ -2,19 +2,6 @@
 
 This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-- [Author](#author)
-
-
-## Overview
-
 ### The challenge
 
 - Build out the project to the designs provided
@@ -22,9 +9,10 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Links
 
 - Solution URL: [mysolution](https://github.com/juliedev-web)
+- Solution live: [mysolution](https://fem-single-price-grid-component-ivory.vercel.app)
 
 ## My process
-- I first did the mobile version of the project. I thought it could be easier to make the design responsive and adapt it to the desktop version. 
+- I first did the mobile version of the project. I thought it could be easier to make the responsive design and adapt it for the desktop version. 
 
 ### Built with
 

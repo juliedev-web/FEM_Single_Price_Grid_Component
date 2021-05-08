@@ -9,14 +9,13 @@ body {
     width: 375px;
     font-size: 16px;
     font-family: 'Karla', 'sans serif';
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .general {
     width: 375px;
     height: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .top_main {
@@ -142,12 +141,11 @@ ul li{
 }
 
 footer {
-    position: absolute;
-    margin-bottom: -1100px;
     width: 375px;
     padding: 10px;
     text-align: center;
 }
+
 
 @media screen and (min-width: 750px) {
     .general {
@@ -157,12 +155,18 @@ footer {
     body {
         width: 1440px;
     }
+
+    section {
+        display: flex;
+        flex-direction: row;
+    }
+    
     .top_main {
         width: auto;
         height: auto;
     }
+    
     .main_left {
-        float: left;
         width: 350px;
         height: 357px;
         border-radius: 0 0 0 10px;
@@ -170,7 +174,6 @@ footer {
     }
 
     .main_right {
-        float: right;
         width: 350px;
         height: 357px;
         border-radius: 0 0 10px 0;
@@ -180,9 +183,7 @@ footer {
         width: 300px;
     }
     footer {
-        position: absolute;
-        margin-bottom: -700px;
-        width: 1300px;
+        width: 50%;
         padding: 10px;
         text-align: center;
     }
